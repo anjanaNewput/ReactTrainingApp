@@ -1,0 +1,60 @@
+.trainers-list {
+  padding: 50px 40px;
+}
+.card-container {
+  background-color: #fff;
+  margin-top: 50px;
+  .title {
+    // background-color: #f5f5f5;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+  }
+  .card {
+    border-radius: 5px;
+    // box-shadow: 1px 1px 10px -2px grey;
+    box-shadow: 0 0 1px 2px rgba(0,0,0,0.05), 0 -2px 1px -2px rgba(0,0,0,0.04), 0 0 0 -1px rgba(0,0,0,0.05);
+    cursor: pointer;
+    font-size: 15px;
+    height: 160px;
+    margin: 20px;
+    padding-top: 10px;
+    text-align: center;
+
+    &:hover {
+      zoom: 1;
+      -webkit-box-shadow: 0 0 15px -5px #9e9c9e;
+      box-shadow: 0 0 15px -5px #9e9c9e;
+      -webkit-transition: all 150ms linear;
+      transition: all 150ms linear;
+    }
+    .trainer-info {
+      margin: 20px;
+    }
+
+    span {
+      display: block;
+      word-break: break-word;
+    }
+    .icon {
+      font-size: 40px;
+    }
+
+    .checked {
+      font-size: 25px;
+      position: absolute;
+      right: 43px;
+      top: 24px;
+    }
+  }
+}
+  .clicked {
+    background-color: #39B7CD;
+  }
+  .active {
+    display: block;
+  }
+
+  .hidden {
+    display: none;
+  }

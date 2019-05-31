@@ -1,0 +1,18 @@
+.ques-container {
+  margin: 0 auto;
+  width: 70%;
+  .panel {
+    .panel-heading {
+      .panel-title {
+        position: relative;
+        .btn {
+          position: absolute;
+          right: 0;
+        }
+      }
+    }
+    .panel-body {
+      border-bottom: 1px solid #ddd;
+    }
+  }
+}

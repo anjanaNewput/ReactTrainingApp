@@ -1,0 +1,12 @@
+export const HOME = '/home';
+export const SIGNUP = '/sign-up';
+export const SIGNIN = '/sign-in';
+export const WELCOME = '/welcome';
+export const TRAINERS_LIST  = '/trainers-list';
+export const MANAGE_COURSE = '/manage-course';
+export const ASSIGN_COURSE = '/assign-course';
+export const COURSES = '/courses';
+export const TRAINEES = '/trainees';
+export const FAQ = '/faq';
+export const ALL_EMP_LIST = '/all-employees';
+export const DEPARTMENT = '/department';

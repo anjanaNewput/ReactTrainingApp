@@ -1,0 +1,91 @@
+@import './variables.scss';
+
+.course-list-container {
+   margin: 50px auto;
+   width: 70%;
+   .title {
+     font-size: 25px;
+     text-align: center;
+     padding: 15px;
+     margin-bottom: 10px;
+   }
+   .panel {
+     margin-bottom: 15px;
+     .panel-heading {
+       .panel-title {
+         .glyphicon {
+           font-size: 15px;
+           padding: 3px;
+         }
+       }
+     }
+   }
+}
+
+.add-icon {
+  font-size: 50px;
+  color: $header-blue-color;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+@mixin listItemStyle($bg_color, $font_size, $font_weight, $margin_left) {
+  background-color: $bg_color;
+  font-size: $font_size;
+  font-weight: $font_weight;
+  margin-left: $margin_left;
+}
+
+@mixin listStyle($list_height, $margin_top, $overfolw_y, $padding_top) {
+  height: $list_height;
+  margin-top: $margin_top;
+  overflow-y: $overfolw_y;
+  padding-top: $padding_top;
+}
+
+body {
+  box-sizing: border-box;
+
+  .data-container {
+    margin: 50px 20px 20px;
+
+    .arrow-btn {
+      margin: 30px 10px;
+    }
+    .all-courses {
+      border: 1px solid #ddd;
+      height: 340px;
+      padding: 0 10px;
+      border-radius: 3px;
+      overflow-y: auto;
+
+      .all-courses-lists {
+        @include listStyle(300px, 20px, auto, 20px);
+      }
+      .list-item {
+        @include listItemStyle(#f5f5f5, 17px, 500, 22px);
+      }
+
+    }
+    .navigation-arrow {
+      font-size: 30px;
+      margin: 110px 0;
+    }
+    .assigned-courses {
+      border: 1px solid #ddd;
+      height: 340px;
+      overflow-y: auto;
+      border-radius: 3px;
+
+      .assigned-courses-lists {
+        @include listStyle(300px, 20px, auto, 20px);
+      }
+
+      .list-item {
+        @include listItemStyle(#f5f5f5, 17px, 500, 228px);
+      }
+    }
+  }
+}

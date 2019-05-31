@@ -1,0 +1,228 @@
+#header {
+  margin: 0;
+  background-color: #39B7CD; }
+  #header li a {
+    color: #000; }
+  #header .brand-img {
+    cursor: pointer; }
+
+.footer {
+  background-color: #39B7CD; }
+
+.footer-text {
+  padding: 10px;
+  text-align: center;
+  font-size: 17px; }
+
+.wrapper {
+  min-height: 600px;
+  position: relative; }
+  .wrapper .welcome-page {
+    padding: 100px 30px 30px;
+    color: #528B8B; }
+    .wrapper .welcome-page .cta-btns {
+      margin: 30px auto 0px;
+      width: 60%; }
+      .wrapper .welcome-page .cta-btns .buttons {
+        background-color: #39B7CD;
+        color: #fff;
+        width: 100px;
+        font-size: 20px; }
+      .wrapper .welcome-page .cta-btns .sign-in {
+        float: left; }
+      .wrapper .welcome-page .cta-btns .sign-up {
+        float: right; }
+  .wrapper .next-btn-wrapper {
+    margin: 20px; }
+    .wrapper .next-btn-wrapper .next-btn {
+      width: 150px;
+      background-color: #778899;
+      font-size: 20px; }
+
+.app-name {
+  font-size: 20px; }
+
+.navbar-title-text {
+  position: absolute;
+  width: 50%;
+  left: 325px;
+  text-align: center;
+  font-size: 25px;
+  margin: auto;
+  padding-top: 10px; }
+
+@media screen and (max-width: 768px) {
+  .navbar-title-text {
+    position: absolute;
+    width: 70%;
+    left: 20%;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    padding-top: 10px; } }
+
+@media screen and (max-width: 512px) {
+  .navbar-title-text {
+    display: none; } }
+.page-container {
+  width: 500px;
+  margin: 0px auto; }
+  .page-container .form-layout {
+    margin: 100px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 2px grey;
+    text-align: center; }
+    .page-container .form-layout .title-box {
+      border-bottom: 1px solid lightgray; }
+      .page-container .form-layout .title-box .title {
+        font-size: 25px;
+        padding: 10px; }
+    .page-container .form-layout .form-field {
+      margin: 10px 0px;
+      padding: 20px; }
+    .page-container .form-layout .page-nav-links {
+      list-style: none;
+      padding: 50px; }
+      .page-container .form-layout .page-nav-links .page-link {
+        padding: 10px;
+        margin: 20px 10px;
+        font-size: 20px;
+        font-weight: 500px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        background-color: #ffdab9; }
+
+.form-field {
+  margin: 10px 0px;
+  padding: 20px; }
+.course-list-container {
+  margin: 0px auto;
+  width: 70%; }
+  .course-list-container .course-list {
+    margin-top: 20px; }
+    .course-list-container .course-list .collapse-content {
+      background-color: #C0C0C0; }
+    .course-list-container .course-list .course-block {
+      margin: 25px 10px; }
+      .course-list-container .course-list .course-block .panel-heading {
+        background-color: #D3D3D3; }
+      .course-list-container .course-list .course-block .course-title {
+        font-weight: 500; }
+      .course-list-container .course-list .course-block .options {
+        float: right; }
+        .course-list-container .course-list .course-block .options .panel-icon {
+          margin: 0px 5px; }
+  .course-list-container .panel-heading .accordion-toggle:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\E114";
+    float: right; }
+  .course-list-container .panel-heading .accordion-toggle.collapsed:after {
+    content: "\E080"; }
+
+.add-icon {
+  font-size: 50px;
+  color: #39B7CD;
+  position: absolute;
+  right: 5%;
+  bottom: 5%; }
+
+body {
+  box-sizing: border-box; }
+  body .data-container {
+    margin: 50px 20px 20px; }
+    body .data-container .arrow-btn {
+      font-size: 50px;
+      margin: 30px 10px; }
+    body .data-container .all-courses {
+      background-color: #778899;
+      height: 340px;
+      padding: 0 10px;
+      border-radius: 10px;
+      overflow-y: auto; }
+      body .data-container .all-courses .all-courses-lists {
+        height: 300px;
+        margin-top: 20px;
+        overflow-y: auto;
+        padding-top: 20px; }
+      body .data-container .all-courses .list-item {
+        background-color: #deb887;
+        font-size: 17px;
+        font-weight: 500;
+        margin-left: 22px; }
+    body .data-container .navigation-arrow {
+      font-size: 30px;
+      margin: 110px 0; }
+    body .data-container .assigned-courses {
+      background-color: #778899;
+      height: 340px;
+      overflow-y: auto;
+      border-radius: 10px; }
+      body .data-container .assigned-courses .assigned-courses-lists {
+        height: 300px;
+        margin-top: 20px;
+        overflow-y: auto;
+        padding-top: 20px; }
+      body .data-container .assigned-courses .list-item {
+        background-color: #deb887;
+        font-size: 17px;
+        font-weight: 500;
+        margin-left: 228px; }
+.trainers-list {
+  padding: 50px 40px; }
+  .trainers-list .card-container {
+    background-color: #fff; }
+  .trainers-list .card {
+    background-color: #eaefef;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    height: 160px;
+    margin: 20px;
+    padding-top: 10px; }
+    .trainers-list .card .trainer-info {
+      margin: 20px; }
+    .trainers-list .card span {
+      display: block;
+      word-break: break-word; }
+    .trainers-list .card .icon {
+      font-size: 40px; }
+    .trainers-list .card:hover {
+      cursor: pointer; }
+    .trainers-list .card .checked {
+      font-size: 25px;
+      position: absolute;
+      right: 43px;
+      top: 24px; }
+  .trainers-list .clicked {
+    background-color: #39B7CD; }
+  .trainers-list .active {
+    display: block; }
+  .trainers-list .hidden {
+    display: none; }
+.glyphicon-star-empty {
+  font-size: 25px;
+  padding-right: 10px; }
+
+.assignments {
+  margin: 0 50px; }
+
+.rating-star {
+  padding-left: 130px; }
+
+.trainee-data {
+  font-size: 15px;
+  margin: 50px; }
+  .trainee-data .data-part {
+    margin-bottom: 20px; }
+.ques-container {
+  margin: 0 auto;
+  width: 70%; }
+  .ques-container .ques-div {
+    background-color: lightgrey;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 10px 20px;
+    margin: 10px; }
+
+/*# sourceMappingURL=app.css.map*/

@@ -1,0 +1,66 @@
+{
+  "courses": [
+    {
+      "courseId": "1",
+      "title": "HTML5",
+      "description": ["This course includes the overview of HTMl5. Detail knowledge of html page including header tags(meta, title, script and link), body tags(covers all the important html tags).", "Learn in detail about html page layout, HTML tag attributes, all the new semantics tags of HTML5, Media tags and HTML5 Api."],
+      "duration": "5 Days",
+      "rating": "0"
+    },
+    {
+      "courseId": "2",
+      "title": "CSS3",
+      "description": ["This course includes the overview of HTMl5. Detail knowledge of html page including header tags(meta, title, script and link), body tags(covers all the important html tags)", "Learn in detail about html page layout, HTML tag attributes, all the new semantics tags of HTML5, Media tags and HTML5 Api"],
+      "duration": "5 Days",
+      "rating": "0"
+    },
+    {
+      "courseId": "3",
+      "title": "JAVASCRIPT",
+      "description": ["This course includes the overview of HTMl5. Detail knowledge of html page including header tags(meta, title, script and link), body tags(covers all the important html tags)", "Learn in detail about html page layout, HTML tag attributes, all the new semantics tags of HTML5, Media tags and HTML5 Api"],
+      "duration": "5 Days",
+      "rating": "0"
+    },
+    {
+      "courseId": "4",
+      "title": "JQUERY",
+      "description": ["This course includes the overview of HTMl5. Detail knowledge of html page including header tags(meta, title, script and link), body tags(covers all the important html tags)", "Learn in detail about html page layout, HTML tag attributes, all the new semantics tags of HTML5, Media tags and HTML5 Api"],
+      "duration": "5 Days",
+      "rating": "0"
+    },
+    {
+      "courseId": "5",
+      "title": "BOOTSTRAP",
+      "description": ["This course includes the overview of HTMl5. Detail knowledge of html page including header tags(meta, title, script and link), body tags(covers all the important html tags)", "Learn in detail about html page layout, HTML tag attributes, all the new semantics tags of HTML5, Media tags and HTML5 Api"],
+      "duration": "5 Days",
+      "rating": "0"
+    },
+    {
+      "courseId": "6",
+      "title": "CSS4",
+      "description": ["This course includes the overview of HTMl5. Detail knowledge of html page including header tags(meta, title, script and link), body tags(covers all the important html tags)", "Learn in detail about html page layout, HTML tag attributes, all the new semantics tags of HTML5, Media tags and HTML5 Api"],
+      "duration": "5 Days"
+    },
+    {
+      "courseId": "7",
+      "title": "React Js",
+      "description": ["This course includes the overview of HTMl5. Detail knowledge of html page including header tags(meta, title, script and link), body tags(covers all the important html tags)", "Learn in detail about html page layout, HTML tag attributes, all the new semantics tags of HTML5, Media tags and HTML5 Api"],
+      "duration": "5 Days",
+      "rating": "0"
+    },
+    {
+      "courseId": "8",
+      "title": "Angular Js",
+      "description": ["This course includes the overview of HTMl5. Detail knowledge of html page including header tags(meta, title, script and link), body tags(covers all the important html tags)", "Learn in detail about html page layout, HTML tag attributes, all the new semantics tags of HTML5, Media tags and HTML5 Api"],
+      "duration": "5 Days",
+      "rating": "0"
+    },
+    {
+      "courseId": "9",
+      "title": "Angular",
+      "description": ["This course includes the overview of HTMl5. Detail knowledge of html page including header tags(meta, title, script and link), body tags(covers all the important html tags)", "Learn in detail about html page layout, HTML tag attributes, all the new semantics tags of HTML5, Media tags and HTML5 Api"],
+      "duration": "5 Days",
+      "rating": "0"
+    }
+  ]
+}

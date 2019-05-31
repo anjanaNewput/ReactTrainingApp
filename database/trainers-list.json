@@ -1,0 +1,25 @@
+{
+  "data" : [
+    {
+      "id":1, "name": "Nitesh Thakur", "team": "Web UI", "isSelected":false
+    },
+    {
+      "id":2, "name": "Varsha Tyagi", "team": "Web UI", "isSelected":false
+    },
+    {
+      "id":3, "name": "Deepak Patidar", "team": "Web UI", "isSelected":false
+    },
+    {
+      "id":4, "name": "Anjana Singh", "team": "Web UI", "isSelected":false
+    },
+    {
+      "id":5, "name": "Shikha Shakarwar", "team": "Web UI", "isSelected":false
+    },
+    {
+      "id":6, "name": "Mayur Vaidya", "team": "Web UI", "isSelected":false
+    },
+    {
+      "id":7, "name": "Vishal Patidar", "team": "Web UI", "isSelected":false
+    }
+  ]
+}

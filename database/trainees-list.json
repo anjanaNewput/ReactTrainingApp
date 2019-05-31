@@ -1,0 +1,34 @@
+{
+  "data" : [
+    {
+      "id":1, "name": "Gurpreet Chabbra", "team": "Web UI", "isSelected":false
+    },
+    {
+      "id":2, "name": "Rashmi Soni", "team": "Web UI", "isSelected":false
+    },
+    {
+      "id":3, "name": "Diksha Porwal", "team": "Web UI", "isSelected":false
+    },
+    {
+      "id":3, "name": "Diksha Porwal", "team": "Web UI", "isSelected":false
+    },
+    {
+      "id":3, "name": "Diksha Porwal", "team": "Web UI", "isSelected":false
+    },
+    {
+      "id":3, "name": "Diksha Porwal", "team": "Web UI", "isSelected":false
+    },
+    {
+      "id":3, "name": "Diksha Porwal", "team": "Web UI", "isSelected":false
+    },
+    {
+      "id":3, "name": "Diksha Porwal", "team": "Web UI", "isSelected":false
+    },
+    {
+      "id":3, "name": "Diksha Porwal", "team": "Web UI", "isSelected":false
+    },
+    {
+      "id":3, "name": "Diksha Porwal", "team": "Web UI", "isSelected":false
+    }
+  ]
+}

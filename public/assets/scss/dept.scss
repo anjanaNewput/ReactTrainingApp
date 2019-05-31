@@ -1,0 +1,15 @@
+.dept-container {
+  max-width: 800px;
+  margin: 50px auto;
+  .panel {
+    margin-bottom: 15px;
+    .panel-heading {
+      .panel-title {
+        .glyphicon {
+          font-size: 15px;
+          padding: 3px;
+        }
+      }
+    }
+  }
+}
